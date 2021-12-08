@@ -71,7 +71,7 @@ section h1 {
 
 .displayGrid {
     display: grid;
-    grid-template-columns: 900px 900px;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 250px 250px;
     margin-left: 280px;
     margin-top: 140px;
