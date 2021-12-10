@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.navbar {
+  background-color: rgba(255, 188, 5, 0.438) !important;
+  width: 100%; }
+
+.navbar-collapse {
+  justify-content: space-around !important; }
+
+a {
+  font-size: 20px;
+  padding-right: 80px !important; }
+  a:hover {
+    font-weight: 700;
+    color: black !important;
+    transition: ease-in-out 0.2s;
+    padding: 14px; }
+
+.presentacion {
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center; }
+
+.introduccion {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  padding: 45px; }
+
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  list-style: none; }
+
+section h1 {
+  padding-top: 100px;
+  padding-bottom: 85px; }
+
+#servicios h1 {
+  padding: 45px; }
+
+#servicios p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px; }
+
+#servicios h3 {
+  padding: 45px; }
+
+.displayGrid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 250px 250px;
+  margin-left: 280px;
+  margin-top: 140px; }
+
+.contacto {
+  padding-left: 25px;
+  width: 50%; }
+
+label {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 25px; }
+
+.email {
+  padding-top: 80px; }
+
+.consulta {
+  padding-top: 45px; }
+
+.enviar {
+  padding-top: 75px; }
+
+.footerFlex {
+  font-weight: 500;
+  width: 100%;
+  height: 360px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa; }
+  .footerFlex p {
+    text-align: right;
+    padding-right: 25px; }
+  .footerFlex h1 {
+    text-align: left;
+    padding-left: 25px; }
+
+@media (max-width: 1025px) {
+  .isologo {
+    display: none; }
+  .nosotros {
+    flex-direction: column; } }
+
+@media (max-width: 391px) {
+  .presentacion {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; }
+  .introduccion {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0px;
+    text-align: left; }
+  .logo {
+    transform: scale(0.9);
+    width: 100%; }
+  .nosotros {
+    height: 900px;
+    transform: scale(0.5);
+    flex-direction: column !important; }
+  .displayGrid {
+    width: 100%;
+    transform: scale(0.4);
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40% 40% 40%;
+    margin-left: -30px;
+    margin-top: 20px; }
+  #servicios h1 {
+    padding: 80px; } }

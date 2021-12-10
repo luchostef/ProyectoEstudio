@@ -1,0 +1,45 @@
+@media (max-width:1025px) {
+	.isologo {
+		display: none;
+	}
+	.nosotros {
+		flex-direction: column;
+	}
+}
+@media (max-width:391px) {
+	.presentacion {
+		padding-top: 60px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+	.introduccion {
+		font-size: 14px;
+		font-weight: 200;
+		padding: 0px;
+		text-align: left;
+	}
+	.logo {
+		transform: scale(0.9);
+		width: 100%;
+	}
+	.nosotros {
+		height: 900px;
+		transform: scale(0.5);
+		flex-direction: column !important;
+	}
+	.displayGrid {
+		width: 100%;
+		transform: scale(0.4);
+		grid-template-columns: 100%;
+		grid-template-rows: 40% 40% 40% 40%;
+		margin-left: -30px;
+		margin-top: 20px;
+	}
+	#servicios {
+		h1 {
+			padding: 80px;
+		}
+	}
+}

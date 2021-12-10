@@ -1,0 +1,21 @@
+#servicios {
+	h1 {
+		padding: 45px;
+	}
+	p{
+		font-weight: 500;
+		font-size: 20px;
+		text-align: center;
+		padding: 40px;
+	}
+	h3 {
+		padding: 45px;
+	}
+}
+.displayGrid {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-template-rows: 250px 250px;
+	margin-left: 280px;
+	margin-top: 140px;
+}
