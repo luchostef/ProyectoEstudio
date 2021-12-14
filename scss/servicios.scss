@@ -3,13 +3,14 @@
 		padding: 45px;
 	}
 	p{
+		@extend h1;
 		font-weight: 500;
 		font-size: 20px;
 		text-align: center;
-		padding: 40px;
+		
 	}
 	h3 {
-		padding: 45px;
+		@extend h1;
 	}
 }
 .displayGrid {

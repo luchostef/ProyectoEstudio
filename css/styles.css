@@ -39,21 +39,17 @@ a {
   padding-bottom: 100px;
   list-style: none; }
 
-section h1 {
+section h1, section #servicios p, #servicios section p, section #servicios h3, #servicios section h3 {
   padding-top: 100px;
   padding-bottom: 85px; }
 
-#servicios h1 {
+#servicios h1, #servicios p, #servicios h3 {
   padding: 45px; }
 
 #servicios p {
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
-  padding: 40px; }
-
-#servicios h3 {
-  padding: 45px; }
+  text-align: center; }
 
 .displayGrid {
   display: grid;
@@ -92,7 +88,7 @@ label {
   .footerFlex p {
     text-align: right;
     padding-right: 25px; }
-  .footerFlex h1 {
+  .footerFlex h1, .footerFlex #servicios p, #servicios .footerFlex p, .footerFlex #servicios h3, #servicios .footerFlex h3 {
     text-align: left;
     padding-left: 25px; }
 
@@ -128,5 +124,5 @@ label {
     grid-template-rows: 40% 40% 40% 40%;
     margin-left: -30px;
     margin-top: 20px; }
-  #servicios h1 {
+  #servicios h1, #servicios p, #servicios h3 {
     padding: 80px; } }
