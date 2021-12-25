@@ -92,13 +92,55 @@ label {
     text-align: left;
     padding-left: 25px; }
 
+@media (max-width: 1600px) {
+  .presentacion {
+    padding-top: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center; }
+  .introduccion {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0px;
+    text-align: left; }
+  .logo {
+    transform: scale(0.9);
+    width: 100%; }
+  .nosotros {
+    transform: scale(0.7);
+    justify-content: space-evenly; }
+    .nosotros div {
+      margin: 45px; }
+  .displayGrid {
+    width: 100%;
+    transform: scale(0.6);
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40% 40% 40%;
+    margin-left: 250px;
+    margin-top: 20px; }
+  #servicios h1, #servicios p, #servicios h3 {
+    padding: 80px; } }
+
 @media (max-width: 1025px) {
   .isologo {
     display: none; }
   .nosotros {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .displayGrid {
+    width: 100%;
+    transform: scale(0.6);
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40% 40% 40%;
+    margin-left: 150px;
+    margin-top: 20px; }
+  #servicios {
+    width: 100%; }
+    #servicios h1, #servicios p, #servicios h3 {
+      padding: 10px; } }
 
 @media (max-width: 391px) {
+  .isologo {
+    display: none; }
   .presentacion {
     padding-top: 60px;
     display: flex;
@@ -116,7 +158,8 @@ label {
   .nosotros {
     height: 900px;
     transform: scale(0.5);
-    flex-direction: column !important; }
+    flex-direction: column !important;
+    margin-top: 70px; }
   .displayGrid {
     width: 100%;
     transform: scale(0.4);
