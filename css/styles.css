@@ -19,43 +19,50 @@ a {
     padding: 14px; }
 
 .presentacion {
-  padding: 35px;
+  padding: 180px;
   display: flex;
   flex-direction: row;
   align-content: center;
   align-items: center; }
 
 .introduccion {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
   text-align: left;
   padding: 45px; }
+
+.logo {
+  transform: scale(0.8);
+  padding-left: 90px; }
 
 .nosotros {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding-bottom: 100px;
+  padding: 25px;
+  margin-bottom: 360px;
   list-style: none; }
 
-section h1, section #servicios p, #servicios section p, section #servicios h3, #servicios section h3 {
-  padding-top: 100px;
-  padding-bottom: 85px; }
+section h2, section #servicios h3, #servicios section h3 {
+  margin-bottom: 125px;
+  padding: 70px; }
 
-#servicios h1, #servicios p, #servicios h3 {
-  padding: 45px; }
-
-#servicios p {
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center; }
+#servicios {
+  padding-top: 180px; }
+  #servicios h2, #servicios h3 {
+    margin-bottom: 25px;
+    padding: 70px; }
+  #servicios p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center; }
 
 .displayGrid {
   display: grid;
   grid-template-columns: 40% 40%;
   grid-template-rows: 250px 250px;
-  margin-left: 280px;
+  margin-left: 450px;
   margin-top: 140px; }
 
 .contacto {
@@ -88,7 +95,7 @@ label {
   .footerFlex p {
     text-align: right;
     padding-right: 25px; }
-  .footerFlex h1, .footerFlex #servicios p, #servicios .footerFlex p, .footerFlex #servicios h3, #servicios .footerFlex h3 {
+  .footerFlex h1 {
     text-align: left;
     padding-left: 25px; }
 
@@ -118,7 +125,7 @@ label {
     grid-template-rows: 40% 40% 40% 40%;
     margin-left: 250px;
     margin-top: 20px; }
-  #servicios h1, #servicios p, #servicios h3 {
+  #servicios h1 {
     padding: 80px; } }
 
 @media (max-width: 1025px) {
@@ -135,7 +142,7 @@ label {
     margin-top: 20px; }
   #servicios {
     width: 100%; }
-    #servicios h1, #servicios p, #servicios h3 {
+    #servicios h1 {
       padding: 10px; } }
 
 @media (max-width: 391px) {
@@ -167,5 +174,5 @@ label {
     grid-template-rows: 40% 40% 40% 40%;
     margin-left: -30px;
     margin-top: 20px; }
-  #servicios h1, #servicios p, #servicios h3 {
+  #servicios h1 {
     padding: 80px; } }

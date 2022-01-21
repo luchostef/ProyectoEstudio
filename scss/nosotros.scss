@@ -7,12 +7,14 @@
 .nosotros {
 	@include flex-row-center;
 	width: 100%;
-	padding-bottom: 100px;
+	padding: 25px;
+	margin-bottom: 360px;
 	list-style: none;
+	
 }
 section {
-	h1 {
-		padding-top: 100px;
-		padding-bottom: 85px;
+	h2 {
+		margin-bottom: 125px;
+		padding:70px;
 	}
 }

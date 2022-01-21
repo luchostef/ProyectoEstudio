@@ -1,22 +1,24 @@
 #servicios {
-	h1 {
-		padding: 45px;
+	h2 {
+		margin-bottom: 25px;
+		padding:70px;
 	}
 	p{
-		@extend h1;
-		font-weight: 500;
+	
+		font-weight: 300;
 		font-size: 20px;
 		text-align: center;
 		
 	}
 	h3 {
-		@extend h1;
+		@extend h2;
 	}
+	padding-top: 180px;
 }
 .displayGrid {
 	display: grid;
 	grid-template-columns: 40% 40%;
 	grid-template-rows: 250px 250px;
-	margin-left: 280px;
+	margin-left: 450px;
 	margin-top: 140px;
 }
