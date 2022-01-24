@@ -3,7 +3,7 @@
   padding: 0px; }
 
 .navbar {
-  background-color: rgba(255, 188, 5, 0.438) !important;
+  background-color: white !important;
   width: 100%; }
 
 .navbar-collapse {
@@ -149,19 +149,22 @@ label {
   .isologo {
     display: none; }
   .presentacion {
-    padding-top: 60px;
+    padding-right: 8px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 8px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center; }
   .introduccion {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 200;
     padding: 0px;
-    text-align: left; }
+    margin: 0px; }
   .logo {
-    transform: scale(0.9);
-    width: 100%; }
+    transform: scale(0.8);
+    padding: 0px; }
   .nosotros {
     height: 900px;
     transform: scale(0.5);
@@ -175,4 +178,7 @@ label {
     margin-left: -30px;
     margin-top: 20px; }
   #servicios h1 {
-    padding: 80px; } }
+    padding: 80px; }
+  #servicios .slogan {
+    font-size: 14px;
+    font-weight: 200; } }
